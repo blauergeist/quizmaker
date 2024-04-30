@@ -34,7 +34,7 @@ function QuestionItem({
         className="mt-1 block w-full p-2 border border-gray-300 rounded shadow-sm"
       />
       <button
-        onClick={() => onDeleteQuestion(question.id)} // Ensure you pass question.id to onDeleteQuestion
+        onClick={() => onDeleteQuestion(question.id)} // Pass the ID of the question to be deleted
         className="mt-2 bg-red-200 hover:bg-red-300 text-red-800 hover:text-red-900 font-bold py-1 px-2 rounded"
       >
         Delete Question
