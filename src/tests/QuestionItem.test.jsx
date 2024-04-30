@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from "@testing-library/react";
-import QuestionItem from "../features/QuestionItem";
+import QuestionItem from "../features/quiz/QuestionItem";
 
 describe("QuestionItem Component", () => {
   const mockQuestionChange = jest.fn();

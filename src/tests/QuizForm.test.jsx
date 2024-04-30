@@ -2,7 +2,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import QuizForm from "../features/quiz/QuizForm";
 import QuestionItem from "../features/quiz/QuestionItem";
 
-jest.mock("../features/QuestionItem", () => (props) => (
+jest.mock("../features/quiz/QuestionItem", () => (props) => (
   <div>
     <input
       type="text"

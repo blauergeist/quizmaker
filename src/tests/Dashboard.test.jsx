@@ -1,7 +1,7 @@
 import { render, screen, fireEvent } from "@testing-library/react";
 import { BrowserRouter as Router } from "react-router-dom";
 import { QuizProvider } from "../context/QuizContext";
-import Dashboard from "../features/Dashboard";
+import Dashboard from "../features/dashboard/Dashboard";
 import "@testing-library/jest-dom";
 
 jest.mock("../context/QuizContext", () => {

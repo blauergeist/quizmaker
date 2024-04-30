@@ -1,6 +1,6 @@
 import React from "react";
 import { render, screen } from "@testing-library/react";
-import RecycleQuestions from "../features/RecycleQuestions";
+import RecycleQuestions from "../features/quiz/RecycleQuestions";
 
 const mockRecycleQuestion = jest.fn();
 const mockToggleQuizSelection = jest.fn();
