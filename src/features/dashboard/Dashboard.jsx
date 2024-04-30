@@ -1,4 +1,4 @@
-import { useQuiz } from "../context/QuizContext";
+import { useQuiz } from "../../context/QuizContext";
 import { Link } from "react-router-dom";
 
 function Dashboard() {

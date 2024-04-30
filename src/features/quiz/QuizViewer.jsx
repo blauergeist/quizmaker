@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
-import { useQuiz } from "../context/QuizContext";
+import { useQuiz } from "../../context/QuizContext";
 
 function QuizViewer() {
   const { quizId } = useParams();

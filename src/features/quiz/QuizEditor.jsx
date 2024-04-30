@@ -1,9 +1,9 @@
 import { useState, useEffect, useCallback } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import { useQuiz } from "../context/QuizContext";
+import { useQuiz } from "../../context/QuizContext";
 import QuizForm from "./QuizForm";
-import { useMoveBack } from "../hooks/useMoveback";
-import { generateUniqueId } from "../utils/helpers";
+import { useMoveBack } from "../../hooks/useMoveback";
+import { generateUniqueId } from "../../utils/helpers";
 import RecycleQuestions from "./RecycleQuestions";
 
 function QuizEditor() {
